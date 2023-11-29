@@ -183,3 +183,25 @@ end
 # Calling the Void function
 void_function
 ```
+
+## PHP
+```php
+<?php
+// Null example
+$nullableVariable = null;
+
+if ($nullableVariable === null) {
+    echo "Nullable variable is null.\n";
+} else {
+    echo "Nullable variable has a value: $nullableVariable\n";
+}
+
+// Void example
+function voidFunction() {
+    echo "This is a Void function.\n";
+}
+
+// Calling the Void function
+voidFunction();
+?>
+```
