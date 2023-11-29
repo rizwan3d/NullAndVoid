@@ -10,6 +10,7 @@ Together, Null and Void play roles in making programs robust and functional. Nul
 
 So, in the grand theater of programming, Null and Void may not be the stars, but they're definitely part of the supporting cast that keeps the show running smoothly.
 
+## Pyhton
 ```py
 def null_example():
     # Initializing a variable with Null
@@ -34,7 +35,7 @@ null_example()
 void_example()
 ```
 
-
+## C#
 ```c#
 using System;
 
@@ -64,4 +65,24 @@ class NullAndVoidExample
         voidFunction();
     }
 }
+```
+
+## JavaScript
+```js
+// Null example
+let nullableVariable = null;
+
+if (nullableVariable === null) {
+    console.log("Nullable variable is null.");
+} else {
+    console.log(`Nullable variable has a value: ${nullableVariable}`);
+}
+
+// Void example
+function voidFunction() {
+    console.log("This is a Void function.");
+}
+
+// Calling the Void function
+voidFunction();
 ```
