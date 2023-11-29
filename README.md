@@ -113,3 +113,30 @@ int main() {
     return 0;
 }
 ```
+
+## C
+```c
+#include <stdio.h>
+
+// Null example
+int main() {
+    // Null pointer
+    int *nullablePointer = NULL;
+
+    if (nullablePointer == NULL) {
+        printf("Nullable pointer is null.\n");
+    } else {
+        printf("Nullable pointer has a value.\n");
+    }
+
+    // Void example
+    void voidFunction() {
+        printf("This is a Void function.\n");
+    }
+
+    // Calling the Void function
+    voidFunction();
+
+    return 0;
+}
+```
