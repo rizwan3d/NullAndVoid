@@ -10,7 +10,7 @@ Together, Null and Void play roles in making programs robust and functional. Nul
 
 So, in the grand theater of programming, Null and Void may not be the stars, but they're definitely part of the supporting cast that keeps the show running smoothly.
 
-```pyhton
+```py
 def null_example():
     # Initializing a variable with Null
     null_variable = None
@@ -32,4 +32,36 @@ def void_example():
 # Let's play with Null and Void!
 null_example()
 void_example()
+```
+
+
+```c#
+using System;
+
+class NullAndVoidExample
+{
+    static void Main()
+    {
+        // Null example
+        int? nullableInt = null;
+
+        if (nullableInt.HasValue)
+        {
+            Console.WriteLine($"Nullable int value: {nullableInt.Value}");
+        }
+        else
+        {
+            Console.WriteLine("Nullable int is null.");
+        }
+
+        // Void example
+        void voidFunction()
+        {
+            Console.WriteLine("This is a Void function.");
+        }
+
+        // Calling the Void function
+        voidFunction();
+    }
+}
 ```
