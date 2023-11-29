@@ -11,7 +11,7 @@ Together, Null and Void play roles in making programs robust and functional. Nul
 So, in the grand theater of programming, Null and Void may not be the stars, but they're definitely part of the supporting cast that keeps the show running smoothly.
 
 
-### Speedcode (Speedcoding):
+## Speedcode (Speedcoding)
 ```speedcode
 start:
     ; Null example
