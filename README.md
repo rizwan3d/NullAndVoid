@@ -205,3 +205,23 @@ function voidFunction() {
 voidFunction();
 ?>
 ```
+
+## Swift
+```swift
+// Null example
+var nullableVariable: Int? = nil
+
+if nullableVariable == nil {
+    print("Nullable variable is nil.")
+} else {
+    print("Nullable variable has a value: \(nullableVariable!)")
+}
+
+// Void example
+func voidFunction() {
+    print("This is a Void function.")
+}
+
+// Calling the Void function
+voidFunction()
+```
