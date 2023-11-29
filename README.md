@@ -277,3 +277,51 @@ section .data
     message_not_null db "Nullable variable has a value.", 0
     message_void db "This is a Void function.", 0
 ```
+
+## Rust
+```rust
+fn main() {
+    // Null example
+    let nullable_variable: Option<i32> = None;
+
+    match nullable_variable {
+        Some(value) => println!("Nullable variable has a value: {}", value),
+        None => println!("Nullable variable is None."),
+    }
+
+    // Void example
+    void_function();
+}
+
+// Void function
+fn void_function() {
+    println!("This is a Void function.");
+}
+```
+
+## Fortran
+```fortran
+program NullAndVoid
+    implicit none
+
+    ! Null example
+    integer, pointer :: nullableVariable => null()
+
+    if (associated(nullableVariable)) then
+        print *, "Nullable variable has a value: ", nullableVariable
+    else
+        print *, "Nullable variable is null."
+    end if
+
+    ! Void example
+    call voidFunction()
+
+contains
+
+    ! Void function
+    subroutine voidFunction()
+        print *, "This is a Void function."
+    end subroutine voidFunction
+
+end program NullAndVoid
+```
