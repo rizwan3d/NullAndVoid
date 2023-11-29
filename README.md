@@ -86,3 +86,30 @@ function voidFunction() {
 // Calling the Void function
 voidFunction();
 ```
+
+## C++
+```c++
+#include <iostream>
+
+// Null example
+int main() {
+    // Null pointer
+    int* nullablePointer = nullptr;
+
+    if (nullablePointer == nullptr) {
+        std::cout << "Nullable pointer is null." << std::endl;
+    } else {
+        std::cout << "Nullable pointer has a value." << std::endl;
+    }
+
+    // Void example
+    void voidFunction() {
+        std::cout << "This is a Void function." << std::endl;
+    }
+
+    // Calling the Void function
+    voidFunction();
+
+    return 0;
+}
+```
