@@ -1,3 +1,11 @@
 # NullAndVoid
 
-![Metrics](https://metrics.lecoq.io/rizwan3d?template=classic&base.indepth=true&base.hireable=true&lines=1&followup=1&calendar=1&code=1&gists=1&introduction=1&stackoverflow=1&pagespeed=1&wakatime=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=true&base.hireable=true&base.skip=false&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=30&lines.delay=0&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&calendar=false&calendar.limit=30&code=false&code.lines=12&code.load=400&code.days=3&code.visibility=public&gists=false&introduction=false&introduction.title=true&pagespeed=false&pagespeed.url=.user.website&pagespeed.detailed=false&pagespeed.screenshot=false&pagespeed.pwa=false&stackoverflow=false&stackoverflow.user=0&stackoverflow.sections=answers-top%2C%20questions-recent&stackoverflow.limit=2&stackoverflow.lines=4&stackoverflow.lines.snippet=2&wakatime=false&wakatime.url=https%3A%2F%2Fwakatime.com%2F%40rizwan3d&wakatime.user=current&wakatime.sections=time%2C%20projects%2C%20projects-graphs%2C%20languages%2C%20languages-graphs%2C%20editors%2C%20os&wakatime.days=7&wakatime.limit=5&wakatime.languages.other=false&wakatime.repositories.visibility=all&config.timezone=Asia%2FRiyadh)
+Null and Void—the dynamic duo of programming. Okay, maybe not a duo, but they're definitely key players in the language of code.
+
+Null is like the void of existence in programming—it represents the absence of a value or a reference that points to nothing. It's the default state of many variables until you assign them a proper value. Imagine a variable with no purpose or identity—that's Null for you.
+
+Now, Void, on the other hand, is more of a function thing. When a function is declared with a return type of Void, it means that it doesn't return any value. It does its thing, but it's not interested in giving you anything back. It's like a selfless superhero of the programming world.
+
+Together, Null and Void play roles in making programs robust and functional. Null helps handle the absence of values, preventing unexpected crashes, while Void functions keep the code tidy by doing their work without cluttering your space with unnecessary returns.
+
+So, in the grand theater of programming, Null and Void may not be the stars, but they're definitely part of the supporting cast that keeps the show running smoothly.
