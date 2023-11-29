@@ -225,3 +225,55 @@ func voidFunction() {
 // Calling the Void function
 voidFunction()
 ```
+## Assembly (x86_64 Linux)
+```assembly
+section .data
+    ; Null example
+    nullable_variable dq 0
+
+section .text
+    global _start
+
+_start:
+    ; Checking if the variable is Null
+    cmp qword [nullable_variable], 0
+    je null_message
+
+    ; Print message if not Null
+    mov rdi, message_not_null
+    mov rax, 1
+    mov rsi, 17
+    syscall
+
+    jmp end_program
+
+null_message:
+    ; Print message if Null
+    mov rdi, message_null
+    mov rax, 1
+    mov rsi, 14
+    syscall
+
+end_program:
+    ; Void example
+    call void_function
+
+    ; Exit the program
+    mov rax, 60
+    xor rdi, rdi
+    syscall
+
+section .text
+void_function:
+    ; Void function
+    mov rdi, message_void
+    mov rax, 1
+    mov rsi, 18
+    syscall
+    ret
+
+section .data
+    message_null db "Nullable variable is null.", 0
+    message_not_null db "Nullable variable has a value.", 0
+    message_void db "This is a Void function.", 0
+```
