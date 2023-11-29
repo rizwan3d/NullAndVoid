@@ -164,3 +164,22 @@ public class NullAndVoidExample {
     }
 }
 ```
+## Ruby
+```ruby
+# Null example
+nullable_variable = nil
+
+if nullable_variable.nil?
+    puts "Nullable variable is null."
+else
+    puts "Nullable variable has a value: #{nullable_variable}"
+end
+
+# Void example
+def void_function
+    puts "This is a Void function."
+end
+
+# Calling the Void function
+void_function
+```
