@@ -140,3 +140,27 @@ int main() {
     return 0;
 }
 ```
+
+## Java
+```java
+public class NullAndVoidExample {
+    public static void main(String[] args) {
+        // Null example
+        Integer nullableInteger = null;
+
+        if (nullableInteger == null) {
+            System.out.println("Nullable integer is null.");
+        } else {
+            System.out.println("Nullable integer has a value: " + nullableInteger);
+        }
+
+        // Void example
+        voidFunction();
+    }
+
+    // Void function
+    private static void voidFunction() {
+        System.out.println("This is a Void function.");
+    }
+}
+```
