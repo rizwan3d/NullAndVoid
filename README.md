@@ -9,3 +9,27 @@ Now, Void, on the other hand, is more of a function thing. When a function is de
 Together, Null and Void play roles in making programs robust and functional. Null helps handle the absence of values, preventing unexpected crashes, while Void functions keep the code tidy by doing their work without cluttering your space with unnecessary returns.
 
 So, in the grand theater of programming, Null and Void may not be the stars, but they're definitely part of the supporting cast that keeps the show running smoothly.
+
+```pyhton
+def null_example():
+    # Initializing a variable with Null
+    null_variable = None
+
+    # Checking if the variable is Null
+    if null_variable is None:
+        print("This variable is Null.")
+    else:
+        print("This variable is not Null.")
+
+def void_example():
+    # A Void function that prints a message without returning anything
+    def print_message():
+        print("This is a Void function.")
+
+    # Calling the Void function
+    print_message()
+
+# Let's play with Null and Void!
+null_example()
+void_example()
+```
